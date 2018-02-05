@@ -1,0 +1,31 @@
+body{
+    margin:0;
+}
+
+.remove-all-margin-padding{
+    margin:0 ! important;
+    padding:0 ! important;
+}
+
+
+
+.bg-nav-color{
+    background-color:#b30000; 
+}
+
+.nav-title{
+    color:cornsilk;
+}
+
+.nav-link{
+    color:cornsilk;
+}
+
+.bg-pic-home{
+    background-image: url("bg-wallpaper-home.jpg");
+    max-width: 100%;
+    background-size:cover;
+    height: 100vh;
+    padding:0 !important;
+    margin:0  !important; 
+}
