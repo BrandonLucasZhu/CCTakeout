@@ -7,6 +7,8 @@
         <title>Craig Henry Chinese Food Takeout</title>
         <!--personal css styling -->
         <link rel="stylesheet" href="assets/css/personalStyle.css">
+        <!-- colour css -->
+        <link rel="stylesheet" href="assets/css/colours.css">
         <!-- Font-awesome-all.css -->
         <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.css">
         <!-- Bootstrap.css -->
@@ -19,32 +21,93 @@
     </head>
     
     <body>
-    <!-- Navigation bar -->     
-    <nav class = "navbar navbar-expand-lg bg-nav-color">              
+    <!-- Navigation bar -->
+    <section class="navbar-section-height" id="nav">    
+    <nav class = "navbar navbar-expand-lg bg-nav-color navbar-fixed-topp justify-content-start">
         <a class="navbar-brand nav-title" a href = "">
             Craig Henry Chinese Food Takeout
         </a>
-            <div class="collapse navbar-collapse">  
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#hero-area">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#price">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-us">About us</a>
-                    </li>
-                </ul>        
-            </div>
+        <ul class="navbar-nav navbar-left">
+            <li class="nav-item active">
+                 <a class="nav-link" href="#hero-area">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#price">Menu</a>
+            </li>
+        </ul>
+
+        <div class="ml-auto">
+            <button class="">Personal list</button>
+        </div>    
+        
     </nav>
+    </section>
     <!--Home page -->
     <section id="home">
-        <div class="container bg-pic-home">
-            
-            
-            
-        </div>
+        <div class="container bg-color-home">
+            <div class="container five-h-spacing">
+                <div class="row">
+                </div>
+            </div>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="container orange-bg"> <!-- Open hours box element -->
+                                <div class="row gray-bg">
+                                    <h2 class="center">Opening hours</h2>
+                                </div>
+                                <p></br>Monday to Saturday: 4:00 PM - 11:00 PM </br></p>
+                                <p>Sunday: 4:00 PM - 10:30 PM </br></br></p>
+                            </div>
+                            <div class="container five-h-spacing">
+                            </div>    
+                            <div class="container orange-bg">  <!-- Payment options box element -->
+                                <div class="row gray-bg">
+                                    <h2 class="center">Payment Options</h2>
+                                </div>
+                                <p>We accept Visa, Mastercard or Debit/Interac.</p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-8">  <!-- since icons are big needs bigger col -->
+                                            <i class="fab fa-cc-mastercard font-size-48px"></i>
+                                            <i class="fab fa-cc-visa font-size-48px"></i>
+                                            <i class="fas fa-credit-card font-size-48px"></i>
+                                        </div>
+                                        <div class="col-md-2"></div>
+                                    </div>    
+                                </div>    
+                            </div>
+                            <div class="container five-h-spacing">
+                            </div>
+                            <div class="container orange-bg">  <!-- Location -->
+                                <div class="row gray-bg">
+                                    <h2 class="center">Location</h2>
+                                </div>
+                                <h3>3C Chartwell Ave. Nepean ON. </br> Craig Henry Plaza </br></br></h3>   
+                            </div>
+                        </div>
+                        <div class="col-md-1">    <!-- entire vertical gap in between the map and open hours -->
+                        </div>
+                        <div class="col-md-7 orange-bg">  <!-- the "We offer..." section -->
+                            <div class="row gray-bg">
+                                <h2 class="gray-bg center">We offer take-out and delivery services.</h2>
+                            </div>
+                            <p></br>To make a pick-up or delivery order, call (613)226-1818</br></p>
+                            <p>*Delivery order must be within 3 miles(4.8km) of the resturant and, has to be a minimum of $10*</br></br></p>
+                            <img src="assets/pictures/location.JPG" class="resize-pic">
+                            <p></br></p>
+                        </div>    
+                    </div>
+              </div>
+              <div class="container five-h-spacing">
+                  <div class="row">
+                  </div>
+              </div>
+              <div id="slider" class="container"> <!-- Slider photo gallery -->
+                  <div class="row">
+                  </div>
+              </div>
     </section>    
         
     <!-- Footer -->

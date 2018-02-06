@@ -7,35 +7,92 @@ body{
     padding:0 ! important;
 }
 
+/*Commmon utilized css code for re-centering, styling etc */
 
+.entire-width{
+    width: 100%;
+}
+
+.center {
+    margin: 0 auto;
+    
+}
+
+.five-h-spacing{
+    height:5%;
+    width:100%;
+}
+
+.resize-pic{
+    width:100%;
+    height: auto;    
+}
+
+/* **************************************** */
+
+/* ******************Navigation bar ********************* */
 
 .bg-nav-color{
-    background-color:#b30000; 
+    background-color:#bfbfbf; 
 }
 
 .nav-title{
-    color:cornsilk;
+    color:#000000;
 }
 
 .nav-link{
-    color:cornsilk;
+    color:#000000;
 }
 
-.bg-pic-home{
-    background-image: url("bg-wallpaper-home.jpg");
+.nav-content-right{
+    float: right;
+}
+
+.navbar-section-height{
+    height:50px;
+    width:100%;    
+}
+
+.navbar-fixed-topp{
+  top:0 !important;
+  z-index: 1000 !important;
+  position: fixed !important;
+  width:100%;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+
+/* *********************************************** */
+
+/* **************** Home page ******************** */
+
+.bg-color-home{
+    background-color:#ffe066;
     max-width: 100% !important;
     background-size:cover;
-    height: 100vh;
+    height: 200vh;
     padding:0 !important;
-    margin:0  !important; 
+    margin:0  !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
+
+/* **************** Open hours section ************** */
+
+.open-hrs-container-size{ 
+    height: 20%;
+    width: 100%;
+}
+
+/* ************************************************ */
+
 
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #b30000;
+    background-color: #bfbfbf;
     color: white;
     text-align: center;
 }
