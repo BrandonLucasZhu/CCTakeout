@@ -23,9 +23,19 @@ body{
 
 .bg-pic-home{
     background-image: url("bg-wallpaper-home.jpg");
-    max-width: 100%;
+    max-width: 100% !important;
     background-size:cover;
     height: 100vh;
     padding:0 !important;
     margin:0  !important; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b30000;
+    color: white;
+    text-align: center;
 }
