@@ -49,7 +49,7 @@
             "size": ["R"]
         }
     ],
-    soups: [
+    "soups": [
         {
             "id": 8,
             "name": "Peking Hot and Sour Soup",
@@ -75,7 +75,7 @@
             "size": ["R"]
         }
     ],
-    sideOrders: [
+    "sideOrders": [
         {
             "id": 12,
             "name": "Soft Drinks",
@@ -119,7 +119,7 @@
             "size": ["R"]
         }
     ],
-    friedRice:[
+    "friedRice": [
         {
             "id": 19,
             "name": "House Special Fried Rice",
@@ -175,7 +175,7 @@
             "size":["S", "R"]   
         }   
     ],
-    beefPork:[
+    "beefPork": [
         {
             "id": 28,
             "name": "Garlic Spare Ribs",
@@ -243,7 +243,7 @@
             "size":["S", "R"]   
         }
     ],
-    vegDishes:[
+    "vegDishes": [
         {
             "id": 39,
             "name": "Buddhist Delight",
@@ -263,7 +263,7 @@
             "size":["R"]   
         }
     ], 
-    eggFooYoung:[
+    "eggFooYoung": [
         {
             "id": 42,
             "name": "House Special Foo Young",
@@ -301,7 +301,7 @@
             "size":["S", "R"]   
         }
     ],
-    chicken:[
+    "chicken": [
         {
             "id": 48,
             "name": "Pineapple or Garlic Soo Guy",
@@ -351,7 +351,7 @@
             "size":["S", "R"]   
         }
     ],
-    chowMein:[
+    "chowMein": [
         {
             "id": 56,
             "name": "House Special Chow Mein",
@@ -389,7 +389,7 @@
             "size":["S", "R"]   
         }
     ],    
-    sweetAndSour:[
+    "sweetAndSour": [
         {
             "id": 62,
             "name": "Sweet and Sour Chicken Balls",
@@ -433,7 +433,7 @@
             "size":["R"]   
         }
     ],
-    seaFood: [
+    "seaFood": [
         {
             "id": 69,
             "name": "Butterfly Shrimps and Bacon",
@@ -501,7 +501,7 @@
             "size":["R"]   
         }
     ],
-    specialities: [
+    "specialities": [
         {
             "id": 80,
             "name": "Orange Chicken",
@@ -776,8 +776,7 @@
             "description": "Chunks of battered chicken in garlic sauce"
         }
     ],
- 
-    familyDinners:[
+    "familyDinners": [
         {
             "id": 119,
             "name": "Dinner For Two (A)",
@@ -821,7 +820,7 @@
             "description": "- Six Egg Rolls \n - Lemon Chicken \n -Garlic Spare Ribs \n - Beef with Green Peppers and Black Bean Sauce \n - Imperial Ding with Cashews \n - Sweet and Sour Breaded Shrimp \n -Sam See Chow Mein \n - House Special Fried Rice \n - Six Almond Cookies"
         }
     ],
-    combinationPlates:[
+    "combinationPlates": [
         {
             "id": 125,
             "name": "Combination #1",
@@ -893,5 +892,4 @@
             "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Imperial Shrimp \n - Chicken Fried Rice"
         }
     ]
-    
 }
