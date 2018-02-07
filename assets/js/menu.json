@@ -1,0 +1,897 @@
+{   
+    "appetizers": [
+        {
+            "id": 0,
+            "name": "Vegetarian roll",
+            "price": 1.60,
+            "size": ["R"]
+        },
+        {
+            "id": 1,
+            "name": "Open End Egg Roll",
+            "price": 1.30,
+            "size": ["R"]
+        },
+        {
+            "id": 2,
+            "name": "Spring roll",
+            "price": 1.75,
+            "size": ["R"]
+        },
+        {
+            "id": 3,
+            "name": "Sweet & Sour Fried Won Ton",
+            "price": 3.75,
+            "size": ["R"]
+        },
+        {
+            "id": 4,
+            "name": "Fried Noodles",
+            "price": 1.35,
+            "size": ["R"]
+        },
+        {
+            "id": 5,
+            "name": "Sliced BBQ Pork (hot)",
+            "price": 10.95,
+            "size": ["R"]
+        },
+        {
+            "id": 6,
+            "name": "Sliced BBQ Pork (cold)",
+            "price": 10.95,
+            "size": ["R"]
+        },
+        {
+            "id": 7,
+            "name": "Jar Doo Chicken Wings",
+            "price": 11.15,
+            "size": ["R"]
+        }
+    ],
+    soups: [
+        {
+            "id": 8,
+            "name": "Peking Hot and Sour Soup",
+            "price": 3.95,
+            "size": ["R"]
+        }, 
+        {
+            "id": 9,
+            "name": "Won Ton Soup",
+            "price": 3.75,
+            "size": ["R"]
+        },
+        {
+            "id": 10,
+            "name": "Mushroom Egg Soup",
+            "price": 3.60,
+            "size": ["R"]
+        },
+        {
+            "id": 11,
+            "name": "Chinese Vegetable Soup",
+            "price": 3.60,
+            "size": ["R"]
+        }
+    ],
+    sideOrders: [
+        {
+            "id": 12,
+            "name": "Soft Drinks",
+            "price": 1.35,
+            "size": ["R"]
+        },
+        {
+            "id": 13,
+            "name": "Steamed White Rice",
+            "price": [1.20, 1.70],
+            "size": ["S", "R"]
+        },
+        {
+            "id": 14,
+            "name": "Almond Cookies",
+            "price": 0.55,
+            "size": ["R"]
+        },
+        {
+            "id": 15,
+            "name": "Fortune Cookies",
+            "price": 0.50,
+            "size": ["R"]
+        },
+        {
+            "id": 16,
+            "name": "Garlic Sauce",
+            "price": [1.00, 1.35],
+            "size": ["S", "R"]
+        },
+        {
+            "id": 17,
+            "name": "Sweet and Sour Sauce",
+            "price": [1.00, 1.35],
+            "size": ["S", "R"]
+        },
+        {
+            "id": 18,
+            "name": "French Fries",
+            "price": 3.55,
+            "size": ["R"]
+        }
+    ],
+    friedRice:[
+        {
+            "id": 19,
+            "name": "House Special Fried Rice",
+            "price": [7.60, 8.80],
+            "size":["S", "R"]              
+        },
+        {
+            "id": 20,
+            "name": "Shrimp Fried Rice",
+            "price": [7.60, 8.80],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 21,
+            "name": "Chicken Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 22,
+            "name": "Beef Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 23,
+            "name": "BBQ Pork Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 24,
+            "name": "Mushroom Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 25,
+            "name": "Bacon Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 26,
+            "name": "Vegetable Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 27,
+            "name": "Plain Fried Rice",
+            "price": [6.05, 6.95],
+            "size":["S", "R"]   
+        }   
+    ],
+    beefPork:[
+        {
+            "id": 28,
+            "name": "Garlic Spare Ribs",
+            "price": [10.20, 11.60],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 29,
+            "name": "S&S Breaded Spare Ribs",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 30,
+            "name": "Curried Beef",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 31,
+            "name": "Curried Pork",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 32,
+            "name": "Beef with Brocoli",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 33,
+            "name": "Pork with Brocoli",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 34,
+            "name": "Beef with Mixed Vegetables",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 35,
+            "name": "BBQ Pork with Mixed Vegetables",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 36,
+            "name": "Almond Beef Ding",
+            "price": [9.55, 10.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 37,
+            "name": "BBQ Pork Ding",
+            "price": [9.55, 10.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 38,
+            "name": "Beef with Green Peppers and Black Bean Sauce",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        }
+    ],
+    vegDishes:[
+        {
+            "id": 39,
+            "name": "Buddhist Delight",
+            "price": 10.75,
+            "size":["R"]   
+        },
+        {
+            "id": 40,
+            "name": "Assorted Vegetables in Spicy Sauce",
+            "price": 10.95,
+            "size":["R"]   
+        },
+        {
+            "id": 41,
+            "name": "Mixed Vegetables",
+            "price": 9.75,
+            "size":["R"]   
+        }
+    ], 
+    eggFooYoung:[
+        {
+            "id": 42,
+            "name": "House Special Foo Young",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 43,
+            "name": "Shrimp Foo Young",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 44,
+            "name": "Chicken Foo Young",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 45,
+            "name": "Beef Foo Young",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 46,
+            "name": "BBQ Pork Foo Young",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 47,
+            "name": "Mushroom Foo Young",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        }
+    ],
+    chicken:[
+        {
+            "id": 48,
+            "name": "Pineapple or Garlic Soo Guy",
+            "price": [10.00, 11.30],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 49,
+            "name": "Almond or Mushroom Soo Guy",
+            "price": [10.00, 11.30],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 50,
+            "name": "Chicken with Mixed Vegetables",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 51,
+            "name": "Moo Goo Guy Key",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 52,
+            "name": "Chicken with Brocoli",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 53,
+            "name": "Curried Chicken",
+            "price": [9.70, 10.95],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 54,
+            "name": "Garlic Chicken Wings",
+            "price": [9.90, 11.15],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 55,
+            "name": "Almond Chicken Guy Ding",
+            "price": [9.55, 10.75],
+            "size":["S", "R"]   
+        }
+    ],
+    chowMein:[
+        {
+            "id": 56,
+            "name": "House Special Chow Mein",
+            "price": [9.90, 11.15],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 57,
+            "name": "Shrimp Chow Mein",
+            "price": [9.90, 11.15],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 58,
+            "name": "Chicken Chow Mein",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 59,
+            "name": "Beef Chow Mein",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 60,
+            "name": "BBQ Pork Chow Mein",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 61,
+            "name": "Mushroom Chow Mein",
+            "price": [8.75, 9.75],
+            "size":["S", "R"]   
+        }
+    ],    
+    sweetAndSour:[
+        {
+            "id": 62,
+            "name": "Sweet and Sour Chicken Balls",
+            "price": [9.60, 11.30],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 63,
+            "name": "Pineapple Chicken Balls",
+            "price": [9.60, 11.30],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 64,
+            "name": "Garlic Chicken Balls",
+            "price": [9.60, 11.30],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 65,
+            "name": "Ginger Chicken Balls",
+            "price": [9.60, 11.30],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 66,
+            "name": "Sweet and Sour Chicken Wings",
+            "price": [9.90, 11.15],
+            "size":["S", "R"]   
+        },
+        {
+            "id": 67,
+            "name": "Sweet and Sour Breaded Shrimp",
+            "price": 12.75,
+            "size":["R"]   
+        },
+        {
+            "id": 68,
+            "name": "Sweet and Sour Breaded Scallops",
+            "price": 13.75,
+            "size":["R"]   
+        }
+    ],
+    seaFood: [
+        {
+            "id": 69,
+            "name": "Butterfly Shrimps and Bacon",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 70,
+            "name": "Shrimp with Lobster Sauce",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 71,
+            "name": "Shrimp with Mixed Vegetables",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 72,
+            "name": "Shrimp with Snow Peas",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 73,
+            "name": "Shrimp with 3 kinds of Mushroom",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 74,
+            "name": "Shrimp with Black Bean Sauce",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 75,
+            "name": "Almond Shrimp Ding",
+            "price": 12.75,
+            "size":["R"]   
+        },
+        {
+            "id": 76,
+            "name": "Shrimp with Cashew Nuts",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 77,
+            "name": "Curried Shrimp",
+            "price": 13.65,
+            "size":["R"]   
+        },
+        {
+            "id": 78,
+            "name": "Scallops with Mixed Vegetables",
+            "price": 14.75,
+            "size":["R"]   
+        },
+        {
+            "id": 79,
+            "name": "Scallops with Brocoli",
+            "price": 14.75,
+            "size":["R"]   
+        }
+    ],
+    specialities: [
+        {
+            "id": 80,
+            "name": "Orange Chicken",
+            "price": 12.75,
+            "size":["R"],
+            "description": "Sliced breast of breaded chicken served with orange sauce" 
+        },
+        {
+            "id": 81,
+            "name": "Imperial Chicken(Spicy)",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Diced chicken with peppers and vegetables cooked in a hot sauce"
+        },
+        {
+            "id": 82,
+            "name": "Imperial Shrimp(Spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Fried shrimp with peppers and vegtables cooked in a hot sauce"
+        },
+        {
+            "id": 83,
+            "name": "Mandarin Style Shrimp(Spicy)",
+            "price": 14.35,
+            "size":["R"],
+            "description": "Shrimp sauteed with onion and green peas and cooked in a spicy mandarin sauce"
+        },
+        {
+            "id": 84,
+            "name": "Yu Hsiang Shrimp(Spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Shrimp sauteed with shredded water-chestnuts, wooders & green peas in a spicy Yu Hsiang sauce"
+        },
+        {
+            "id": 85,
+            "name": "Yu Hsiang Pork(Spicy)",
+            "price": 12.30,
+            "size":["R"],
+            "description": "Tender pork sauteed with shredded water-chestnuts, wooders & green peas in a spicy Yu Hsiang sauce"
+        },
+        {
+            "id": 86,
+            "name": "Mandarin Style Beef",
+            "price": 12.95,
+            "size":["R"],
+            "description": "Slices of crispy beef in a mandarin style spicy sauce"
+        },
+        {
+            "id": 87,
+            "name": "Mo She Chicken(spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Shredded chicken with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
+        },
+        {
+            "id": 88,
+            "name": "Mo She Beef(spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Shredded beef with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
+        },
+        {
+            "id": 89,
+            "name": "Mo She Pork(spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Shredded pork with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
+        },
+        {
+            "id": 90,
+            "name": "Ma Po Bean Curd Tofu(spicy)",
+            "price": 10.95,
+            "size":["R"],
+            "description": "Soya bean cake with minced meat, chinese mushrooms and bamboo shoots in a spicy sauce"
+        },
+        {
+            "id": 91,
+            "name": "Tai Dop Voy",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Sliced chicken breast, shrimp, BBQ pork, water-chestnuts, bamboo shoots and mixed veg"
+        },
+        {
+            "id": 92,
+            "name": "Imperial Ding with Cashews",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Shrimp and tender chicken breast with mixed vegetables"
+        },
+        {
+            "id": 93,
+            "name": "Happy Family",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Tender chicken breast, beef and mixed vegetables topped with butterfly shrimps and bacon"
+        },
+        {
+            "id": 94,
+            "name": "Cantonese Style Sweet & Sour Pork",
+            "price": 12.30,
+            "size":["R"],
+            "description": "Authentic deep fried pork, green and red peppers with pineapple in sweet and sour sauce"
+        },
+        {
+            "id": 95,
+            "name": "Chicken Rolls with Vegetables",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Chicken breasts rolled with pork and onion and deep fried with mixed vegetables"
+        },
+        {
+            "id": 96,
+            "name": "Lemon Chicken",
+            "price": 12.75,
+            "size":["R"],
+            "description": "Sliced breast of breaded chicken with lemon sauce"
+        },
+        {
+            "id": 97,
+            "name": "Sam Goo Guy Key",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Three kinds of mushrooms with cubed breast of chicken in a tasty sauce"
+        },
+        {
+            "id": 98,
+            "name": "Chicken with Cashews",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Tender diced chicken with mixed vegetables topped with cashew nuts"
+        },
+        {
+            "id": 99,
+            "name": "Chicken with Snow Peas",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Sliced tender chicken breast stir-fried with snow peas and onions"
+        },
+        {
+            "id": 100,
+            "name": "Beef with Chinese Mushrooms and Bamboo Shoots",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Sliced tender beef with Chinese mushrooms, onions and bamboo shoots in a special sauce"
+        },
+        {
+            "id": 101,
+            "name": "Chee Lo Beef",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Sliced tender beef sauced with sweet ginger and pineapple. Authentic Cantonese Favourite"
+        },
+        {
+            "id": 102,
+            "name": "Beef with Cashew Nuts",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Sliced tender beef with mixed vegetables topped with cashew nuts"
+        },
+        {
+            "id": 103,
+            "name": "Beef with snow peas",
+            "price": 12.55,
+            "size":["R"],
+            "description": "Sliced tender beef stir-fried with snow peas and onions"
+        },
+        {
+            "id": 104,
+            "name": "Beef with Flat Noodles",
+            "price": 11.95,
+            "size":["R"],
+            "description": "Sliced beef on flat noodles, stir-fried with onions and bean sprouts"
+        },
+        {
+            "id": 105,
+            "name": "Beef with Flat Noodles in Black Bean sauce",
+            "price": 11.95,
+            "size":["R"],
+            "description": "Sliced beef on flat noodles, stir-fried with onions and bean sprouts topped with black bean sauce"
+        },
+        {
+            "id": 106,
+            "name": "Cantonese Chow Mein",
+            "price": 11.95,
+            "size":["R"],
+            "description": "soft in the inside and crispy on the outside golden noodles topped with shrimp, chicken, BBQ pork, and mixed vegetables"
+        },
+        {
+            "id": 107,
+            "name": "Sam See Chow Mein",
+            "price": 11.95,
+            "size":["R"],
+            "description": "soft in the inside and crispy on the outside golden noodles topped with shredded chicken, BBQ pork, chinese mushrooms and bean sprouts"
+        },
+        {
+            "id": 108,
+            "name": "Shanghai Chow Mein",
+            "price": 11.95,
+            "size":["R"],
+            "description": "Thick round udon noodle, stir-fried with shrimp, pork and scrambled egg threads"
+        },
+        {
+            "id": 109,
+            "name": "Singapore Fried Noodles",
+            "price": 11.95,
+            "size":["R"],
+            "description": "Thin vermicelli rice noodles with mild curry, shrimp, BBQ pork, bean sprouts and scrambled egg threads" 
+        },
+        {
+            "id": 110,
+            "name": "Szechuan Chicken (Spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Coated, diced chicken with water-chestnuts, bamboo shoots and mixed vegetables"
+        },
+        {
+            "id": 111,
+            "name": "Szechuan Style Spicy Beef (Spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Sliced tender beef, mixed vegetables, served with special Szechuan spicy sauce"
+        },
+        {
+            "id": 112,
+            "name": "Szechuan Shrimp (spicy)",
+            "price": 14.35,
+            "size":["R"],
+            "description": "Fresh shrimp, green and red peppers, onions, cooked Szechuan style with a delicate sauce"
+        },
+        {
+            "id": 113,
+            "name": "Szechuan Style Spicy Pork (Spicy)",
+            "price": 12.30,
+            "size":["R"],
+            "description": "Sliced tender pork, mixed vegetables served with Szechuan spicy sauce"
+        },
+        {
+            "id": 114,
+            "name": "Hunan Style Spicy Beef (Spicy)",
+            "price": 12.95,
+            "size":["R"],
+            "description": "Sliced tender beef with peppers, Chinese mushrooms and water-chestnuts in a Hunan style sauce"
+        },
+        {
+            "id": 115,
+            "name": "Hunan Style Spicy Chicken (Spicy)",
+            "price": 12.95,
+            "size":["R"],
+            "description": "Sliced tender Chicken Breast with peppers, Chinese mushrooms and water-chestnuts in a Hunan style sauce"
+        },
+        {
+            "id": 116,
+            "name": "Peking Chicken (Spicy)",
+            "price": 12.95,
+            "size":["R"],
+            "description": "Diced chicken with mushroom and bamboo shoots in a spicy hot peanut sauce"
+        },
+        {
+            "id": 117,
+            "name": "Guy Ding Peng (Spicy)",
+            "price": 13.55,
+            "size":["R"],
+            "description": "Shrimp and chicken stir-fried with water-chestnuts, green peas and mushrooms in a spicy sauce"
+        },
+        {
+            "id": 118,
+            "name": "General Tso Chicken",
+            "price": 12.95,
+            "size":["R"],
+            "description": "Chunks of battered chicken in garlic sauce"
+        }
+    ],
+ 
+    familyDinners:[
+        {
+            "id": 119,
+            "name": "Dinner For Two (A)",
+            "price": 29.15,
+            "size":["R"],
+            "description": "- Two Egg Rolls \n - Sweet and Sour Chicken Balls \n - Chicken Chow Mein \n - Chicken Fried Rice \n - Two Almond Cookies"
+        },
+        {
+            "id": 120,
+            "name": "Dinner For Two (B)",
+            "price": 30.55,
+            "size":["R"],
+            "description": "- Two Egg Rolls \n - Garlic Spare Ribs \n - Chicken with Mixed vegetables \n - Chicken Fried Rice \n - Two Almond Cookies"
+        },
+        {
+            "id": 121,
+            "name": "Dinner For Three",
+            "price": 42.55,
+            "size":["R"],
+            "description": "- Three Egg Rolls \n - Sweet and Sour Chicken Balls \n -Garlic Spare Ribs \n - Chicken with Mixed Vegetables \n - Chicken Fried Rice \n - Three Almond Cookies"
+        },
+        {
+            "id": 122,
+            "name": "Dinner For Four",
+            "price": 55.95,
+            "size":["R"],
+            "description": "- Four Egg Rolls \n - Sweet and Sour Chicken Balls \n -Garlic Spare Ribs \n - Chicken with Mixed Vegetables \n - Almond Shrimp Ding \n - Beef with Brocoli \n - Chicken Fried Rice \n - Four Almond Cookies"
+        },
+        {
+            "id": 123,
+            "name": "Dinner For Five",
+            "price": 68.95,
+            "size":["R"],
+            "description": "- Five Egg Rolls \n - Sweet and Sour Chicken Balls \n -Garlic Spare Ribs \n - Shrimp with Mixed Vegetables \n - Almond Beef Ding \n - Shanghai Chow Mein \n - Chicken Fried Rice \n - Five Almond Cookies"
+        },
+        {
+            "id": 124,
+            "name": "Dinner For Six",
+            "price": 84.95,
+            "size":["R"],
+            "description": "- Six Egg Rolls \n - Lemon Chicken \n -Garlic Spare Ribs \n - Beef with Green Peppers and Black Bean Sauce \n - Imperial Ding with Cashews \n - Sweet and Sour Breaded Shrimp \n -Sam See Chow Mein \n - House Special Fried Rice \n - Six Almond Cookies"
+        }
+    ],
+    combinationPlates:[
+        {
+            "id": 125,
+            "name": "Combination #1",
+            "price": 11.50,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Chicken Chop Suey \n - Chicken Fried Rice"
+        },
+        {
+            "id": 126,
+            "name": "Combination #2",
+            "price": 11.50,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Garlic Spare Ribs \n - Chicken Fried Rice"
+        },
+        {
+            "id": 127,
+            "name": "Combination #3",
+            "price": 11.50,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Almond Chicken Guy Ding \n - Sweet and Sour Chicken Balls \n - Chicken Fried Rice"
+        },
+        {
+            "id": 128,
+            "name": "Combination #4",
+            "price": 11.50,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Chicken Soo Guy \n - Beef with Mixed Vegetables \n - Chicken Fried Rice"
+        },
+        {
+            "id": 129,
+            "name": "Combination #5",
+            "price": 11.50,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Almond Chicken Guy Ding \n - Garlic Spare Ribs \n - Chicken Fried Rice"
+        },
+        {
+            "id": 130,
+            "name": "Combination #6",
+            "price": 12.00,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Sweet and Sour Breaded Shrimp \n - Chicken with Mixed Vegetables \n - Chicken Fried Rice"
+        },
+        {
+            "id": 131,
+            "name": "Combination #7",
+            "price": 12.00,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Hunan Style Spicy Chicken \n - Beef with Mixed Vegetables \n - Chicken Fried Rice"
+        },
+        {
+            "id": 132,
+            "name": "Combination #8",
+            "price": 12.00,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Beef with Green Peppers \n - Orange chicken \n - Chicken Fried Rice"
+        },
+        {
+            "id": 133,
+            "name": "Combination #9",
+            "price": 12.25,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Hunan Style Spicy Beef \n - Shrimp Ding \n - Chicken Fried Rice"
+        },
+        {
+            "id": 134,
+            "name": "Combination #10",
+            "price": 12.25,
+            "size":["R"],
+            "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Imperial Shrimp \n - Chicken Fried Rice"
+        }
+    ]
+    
+}
