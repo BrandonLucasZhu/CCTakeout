@@ -2,6 +2,10 @@
     font-size: 48px;
 }
 
+.font-black{
+    color:#000000;
+}
+
 .gray-bg{
     background-color: #bfbfbf;
 }

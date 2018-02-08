@@ -31,6 +31,11 @@ body{
 /* **************************************** */
 
 /* ******************Navigation bar ********************* */
+.remove-blank-space{
+    height:0px !important;
+    width: 0px !important;
+}
+
 
 .bg-nav-color{
     background-color:#bfbfbf; 
@@ -70,7 +75,7 @@ body{
     background-color:#ffe066;
     max-width: 100% !important;
     background-size:cover;
-    height: 200vh;
+    max-height: 100%;
     padding:0 !important;
     margin:0  !important;
     background-repeat: no-repeat;
@@ -82,6 +87,13 @@ body{
 .open-hrs-container-size{ 
     height: 20%;
     width: 100%;
+}
+
+.category-container-size{
+    height:20% !important;
+    width: 450px !important;
+    margin: 0 !important;
+    padding:0 !important;   
 }
 
 /* ************************************************ */
