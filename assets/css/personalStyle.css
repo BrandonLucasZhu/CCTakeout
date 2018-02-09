@@ -102,6 +102,32 @@ html, body{
 /* **************** Photo Gallery ***************** */
 
 
+
+
+/* ************************************************ */
+
+/* **************** Search by category section ******************* */
+
+.remove-bullet-p {
+    list-style: none;
+}
+
+.outline-search-links {
+    outline-color:#000000;
+    outline-style: solid;
+    outline-width: thin;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* *************************************************** */
 .footer {
     position: fixed;
