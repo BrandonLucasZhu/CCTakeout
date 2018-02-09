@@ -782,42 +782,42 @@
             "name": "Dinner For Two (A)",
             "price": 29.15,
             "size":["R"],
-            "description": "- Two Egg Rolls \n - Sweet and Sour Chicken Balls \n - Chicken Chow Mein \n - Chicken Fried Rice \n - Two Almond Cookies"
+            "description": "- Two Egg Rolls <br> - Sweet and Sour Chicken Balls <br> - Chicken Chow Mein <br> - Chicken Fried Rice <br> - Two Almond Cookies"
         },
         {
             "id": 120,
             "name": "Dinner For Two (B)",
             "price": 30.55,
             "size":["R"],
-            "description": "- Two Egg Rolls \n - Garlic Spare Ribs \n - Chicken with Mixed vegetables \n - Chicken Fried Rice \n - Two Almond Cookies"
+            "description": "- Two Egg Rolls <br> - Garlic Spare Ribs <br> - Chicken with Mixed vegetables <br> - Chicken Fried Rice <br> - Two Almond Cookies"
         },
         {
             "id": 121,
             "name": "Dinner For Three",
             "price": 42.55,
             "size":["R"],
-            "description": "- Three Egg Rolls \n - Sweet and Sour Chicken Balls \n -Garlic Spare Ribs \n - Chicken with Mixed Vegetables \n - Chicken Fried Rice \n - Three Almond Cookies"
+            "description": "- Three Egg Rolls <br> - Sweet and Sour Chicken Balls <br> -Garlic Spare Ribs <br> - Chicken with Mixed Vegetables <br> - Chicken Fried Rice <br> - Three Almond Cookies"
         },
         {
             "id": 122,
             "name": "Dinner For Four",
             "price": 55.95,
             "size":["R"],
-            "description": "- Four Egg Rolls \n - Sweet and Sour Chicken Balls \n -Garlic Spare Ribs \n - Chicken with Mixed Vegetables \n - Almond Shrimp Ding \n - Beef with Brocoli \n - Chicken Fried Rice \n - Four Almond Cookies"
+            "description": "- Four Egg Rolls <br> - Sweet and Sour Chicken Balls <br> -Garlic Spare Ribs <br> - Chicken with Mixed Vegetables <br> - Almond Shrimp Ding <br> - Beef with Brocoli <br> - Chicken Fried Rice <br> - Four Almond Cookies"
         },
         {
             "id": 123,
             "name": "Dinner For Five",
             "price": 68.95,
             "size":["R"],
-            "description": "- Five Egg Rolls \n - Sweet and Sour Chicken Balls \n -Garlic Spare Ribs \n - Shrimp with Mixed Vegetables \n - Almond Beef Ding \n - Shanghai Chow Mein \n - Chicken Fried Rice \n - Five Almond Cookies"
+            "description": "- Five Egg Rolls <br> - Sweet and Sour Chicken Balls <br> -Garlic Spare Ribs <br> - Shrimp with Mixed Vegetables <br> - Almond Beef Ding <br> - Shanghai Chow Mein <br> - Chicken Fried Rice <br> - Five Almond Cookies"
         },
         {
             "id": 124,
             "name": "Dinner For Six",
             "price": 84.95,
             "size":["R"],
-            "description": "- Six Egg Rolls \n - Lemon Chicken \n -Garlic Spare Ribs \n - Beef with Green Peppers and Black Bean Sauce \n - Imperial Ding with Cashews \n - Sweet and Sour Breaded Shrimp \n -Sam See Chow Mein \n - House Special Fried Rice \n - Six Almond Cookies"
+            "description": "- Six Egg Rolls <br> - Lemon Chicken <br> -Garlic Spare Ribs <br> - Beef with Green Peppers and Black Bean Sauce <br> - Imperial Ding with Cashews <br> - Sweet and Sour Breaded Shrimp <br> -Sam See Chow Mein <br> - House Special Fried Rice <br> - Six Almond Cookies"
         }
     ],
     "combinationPlates": [
@@ -826,70 +826,70 @@
             "name": "Combination #1",
             "price": 11.50,
             "size":["R"],
-            "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Chicken Chop Suey \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Sweet and Sour Chicken Balls <br> - Chicken Chop Suey <br> - Chicken Fried Rice"
         },
         {
             "id": 126,
             "name": "Combination #2",
             "price": 11.50,
             "size":["R"],
-            "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Garlic Spare Ribs \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Sweet and Sour Chicken Balls <br> - Garlic Spare Ribs <br> - Chicken Fried Rice"
         },
         {
             "id": 127,
             "name": "Combination #3",
             "price": 11.50,
             "size":["R"],
-            "description": "- One Egg Roll \n - Almond Chicken Guy Ding \n - Sweet and Sour Chicken Balls \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Almond Chicken Guy Ding <br> - Sweet and Sour Chicken Balls <br> - Chicken Fried Rice"
         },
         {
             "id": 128,
             "name": "Combination #4",
             "price": 11.50,
             "size":["R"],
-            "description": "- One Egg Roll \n - Chicken Soo Guy \n - Beef with Mixed Vegetables \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Chicken Soo Guy <br> - Beef with Mixed Vegetables <br> - Chicken Fried Rice"
         },
         {
             "id": 129,
             "name": "Combination #5",
             "price": 11.50,
             "size":["R"],
-            "description": "- One Egg Roll \n - Almond Chicken Guy Ding \n - Garlic Spare Ribs \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Almond Chicken Guy Ding <br> - Garlic Spare Ribs <br> - Chicken Fried Rice"
         },
         {
             "id": 130,
             "name": "Combination #6",
             "price": 12.00,
             "size":["R"],
-            "description": "- One Egg Roll \n - Sweet and Sour Breaded Shrimp \n - Chicken with Mixed Vegetables \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Sweet and Sour Breaded Shrimp <br> - Chicken with Mixed Vegetables <br> - Chicken Fried Rice"
         },
         {
             "id": 131,
             "name": "Combination #7",
             "price": 12.00,
             "size":["R"],
-            "description": "- One Egg Roll \n - Hunan Style Spicy Chicken \n - Beef with Mixed Vegetables \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Hunan Style Spicy Chicken <br> - Beef with Mixed Vegetables <br> - Chicken Fried Rice"
         },
         {
             "id": 132,
             "name": "Combination #8",
             "price": 12.00,
             "size":["R"],
-            "description": "- One Egg Roll \n - Beef with Green Peppers \n - Orange chicken \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Beef with Green Peppers <br> - Orange chicken <br> - Chicken Fried Rice"
         },
         {
             "id": 133,
             "name": "Combination #9",
             "price": 12.25,
             "size":["R"],
-            "description": "- One Egg Roll \n - Hunan Style Spicy Beef \n - Shrimp Ding \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Hunan Style Spicy Beef <br> - Shrimp Ding <br> - Chicken Fried Rice"
         },
         {
             "id": 134,
             "name": "Combination #10",
             "price": 12.25,
             "size":["R"],
-            "description": "- One Egg Roll \n - Sweet and Sour Chicken Balls \n - Imperial Shrimp \n - Chicken Fried Rice"
+            "description": "- One Egg Roll <br> - Sweet and Sour Chicken Balls <br> - Imperial Shrimp <br> - Chicken Fried Rice"
         }
     ]
 }
