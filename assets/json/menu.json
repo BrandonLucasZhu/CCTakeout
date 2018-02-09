@@ -507,273 +507,273 @@
             "name": "Orange Chicken",
             "price": 12.75,
             "size":["R"],
-            "description": "Sliced breast of breaded chicken served with orange sauce" 
+            "description": "- Sliced breast of breaded chicken served with orange sauce" 
         },
         {
             "id": 81,
             "name": "Imperial Chicken(Spicy)",
             "price": 12.55,
             "size":["R"],
-            "description": "Diced chicken with peppers and vegetables cooked in a hot sauce"
+            "description": "- Diced chicken with peppers and vegetables cooked in a hot sauce"
         },
         {
             "id": 82,
             "name": "Imperial Shrimp(Spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Fried shrimp with peppers and vegtables cooked in a hot sauce"
+            "description": "- Fried shrimp with peppers and vegtables cooked in a hot sauce"
         },
         {
             "id": 83,
             "name": "Mandarin Style Shrimp(Spicy)",
             "price": 14.35,
             "size":["R"],
-            "description": "Shrimp sauteed with onion and green peas and cooked in a spicy mandarin sauce"
+            "description": "- Shrimp sauteed with onion and green peas and cooked in a spicy mandarin sauce"
         },
         {
             "id": 84,
             "name": "Yu Hsiang Shrimp(Spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Shrimp sauteed with shredded water-chestnuts, wooders & green peas in a spicy Yu Hsiang sauce"
+            "description": "- Shrimp sauteed with shredded water-chestnuts, wooders & green peas in a spicy Yu Hsiang sauce"
         },
         {
             "id": 85,
             "name": "Yu Hsiang Pork(Spicy)",
             "price": 12.30,
             "size":["R"],
-            "description": "Tender pork sauteed with shredded water-chestnuts, wooders & green peas in a spicy Yu Hsiang sauce"
+            "description": "- Tender pork sauteed with shredded water-chestnuts, wooders & green peas in a spicy Yu Hsiang sauce"
         },
         {
             "id": 86,
             "name": "Mandarin Style Beef",
             "price": 12.95,
             "size":["R"],
-            "description": "Slices of crispy beef in a mandarin style spicy sauce"
+            "description": "- Slices of crispy beef in a mandarin style spicy sauce"
         },
         {
             "id": 87,
             "name": "Mo She Chicken(spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Shredded chicken with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
+            "description": "- Shredded chicken with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
         },
         {
             "id": 88,
             "name": "Mo She Beef(spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Shredded beef with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
+            "description": "- Shredded beef with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
         },
         {
             "id": 89,
             "name": "Mo She Pork(spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Shredded pork with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
+            "description": "- Shredded pork with bamboo shoots, onions and egg in a delicous hot sauce, served with six pancakes"
         },
         {
             "id": 90,
             "name": "Ma Po Bean Curd Tofu(spicy)",
             "price": 10.95,
             "size":["R"],
-            "description": "Soya bean cake with minced meat, chinese mushrooms and bamboo shoots in a spicy sauce"
+            "description": "- Soya bean cake with minced meat, chinese mushrooms and bamboo shoots in a spicy sauce"
         },
         {
             "id": 91,
             "name": "Tai Dop Voy",
             "price": 12.55,
             "size":["R"],
-            "description": "Sliced chicken breast, shrimp, BBQ pork, water-chestnuts, bamboo shoots and mixed veg"
+            "description": "- Sliced chicken breast, shrimp, BBQ pork, water-chestnuts, bamboo shoots and mixed veg"
         },
         {
             "id": 92,
             "name": "Imperial Ding with Cashews",
             "price": 13.55,
             "size":["R"],
-            "description": "Shrimp and tender chicken breast with mixed vegetables"
+            "description": "- Shrimp and tender chicken breast with mixed vegetables"
         },
         {
             "id": 93,
             "name": "Happy Family",
             "price": 13.55,
             "size":["R"],
-            "description": "Tender chicken breast, beef and mixed vegetables topped with butterfly shrimps and bacon"
+            "description": "- Tender chicken breast, beef and mixed vegetables topped with butterfly shrimps and bacon"
         },
         {
             "id": 94,
             "name": "Cantonese Style Sweet & Sour Pork",
             "price": 12.30,
             "size":["R"],
-            "description": "Authentic deep fried pork, green and red peppers with pineapple in sweet and sour sauce"
+            "description": "- Authentic deep fried pork, green and red peppers with pineapple in sweet and sour sauce"
         },
         {
             "id": 95,
             "name": "Chicken Rolls with Vegetables",
             "price": 12.55,
             "size":["R"],
-            "description": "Chicken breasts rolled with pork and onion and deep fried with mixed vegetables"
+            "description": "- Chicken breasts rolled with pork and onion and deep fried with mixed vegetables"
         },
         {
             "id": 96,
             "name": "Lemon Chicken",
             "price": 12.75,
             "size":["R"],
-            "description": "Sliced breast of breaded chicken with lemon sauce"
+            "description": "- Sliced breast of breaded chicken with lemon sauce"
         },
         {
             "id": 97,
             "name": "Sam Goo Guy Key",
             "price": 12.55,
             "size":["R"],
-            "description": "Three kinds of mushrooms with cubed breast of chicken in a tasty sauce"
+            "description": "- Three kinds of mushrooms with cubed breast of chicken in a tasty sauce"
         },
         {
             "id": 98,
             "name": "Chicken with Cashews",
             "price": 12.55,
             "size":["R"],
-            "description": "Tender diced chicken with mixed vegetables topped with cashew nuts"
+            "description": "- Tender diced chicken with mixed vegetables topped with cashew nuts"
         },
         {
             "id": 99,
             "name": "Chicken with Snow Peas",
             "price": 12.55,
             "size":["R"],
-            "description": "Sliced tender chicken breast stir-fried with snow peas and onions"
+            "description": "- Sliced tender chicken breast stir-fried with snow peas and onions"
         },
         {
             "id": 100,
             "name": "Beef with Chinese Mushrooms and Bamboo Shoots",
             "price": 12.55,
             "size":["R"],
-            "description": "Sliced tender beef with Chinese mushrooms, onions and bamboo shoots in a special sauce"
+            "description": "- Sliced tender beef with Chinese mushrooms, onions and bamboo shoots in a special sauce"
         },
         {
             "id": 101,
             "name": "Chee Lo Beef",
             "price": 12.55,
             "size":["R"],
-            "description": "Sliced tender beef sauced with sweet ginger and pineapple. Authentic Cantonese Favourite"
+            "description": "- Sliced tender beef sauced with sweet ginger and pineapple. Authentic Cantonese Favourite"
         },
         {
             "id": 102,
             "name": "Beef with Cashew Nuts",
             "price": 12.55,
             "size":["R"],
-            "description": "Sliced tender beef with mixed vegetables topped with cashew nuts"
+            "description": "- Sliced tender beef with mixed vegetables topped with cashew nuts"
         },
         {
             "id": 103,
             "name": "Beef with snow peas",
             "price": 12.55,
             "size":["R"],
-            "description": "Sliced tender beef stir-fried with snow peas and onions"
+            "description": "- Sliced tender beef stir-fried with snow peas and onions"
         },
         {
             "id": 104,
             "name": "Beef with Flat Noodles",
             "price": 11.95,
             "size":["R"],
-            "description": "Sliced beef on flat noodles, stir-fried with onions and bean sprouts"
+            "description": "- Sliced beef on flat noodles, stir-fried with onions and bean sprouts"
         },
         {
             "id": 105,
             "name": "Beef with Flat Noodles in Black Bean sauce",
             "price": 11.95,
             "size":["R"],
-            "description": "Sliced beef on flat noodles, stir-fried with onions and bean sprouts topped with black bean sauce"
+            "description": "- Sliced beef on flat noodles, stir-fried with onions and bean sprouts topped with black bean sauce"
         },
         {
             "id": 106,
             "name": "Cantonese Chow Mein",
             "price": 11.95,
             "size":["R"],
-            "description": "soft in the inside and crispy on the outside golden noodles topped with shrimp, chicken, BBQ pork, and mixed vegetables"
+            "description": "- soft in the inside and crispy on the outside golden noodles topped with shrimp, chicken, BBQ pork, and mixed vegetables"
         },
         {
             "id": 107,
             "name": "Sam See Chow Mein",
             "price": 11.95,
             "size":["R"],
-            "description": "soft in the inside and crispy on the outside golden noodles topped with shredded chicken, BBQ pork, chinese mushrooms and bean sprouts"
+            "description": "- soft in the inside and crispy on the outside golden noodles topped with shredded chicken, BBQ pork, chinese mushrooms and bean sprouts"
         },
         {
             "id": 108,
             "name": "Shanghai Chow Mein",
             "price": 11.95,
             "size":["R"],
-            "description": "Thick round udon noodle, stir-fried with shrimp, pork and scrambled egg threads"
+            "description": "- Thick round udon noodle, stir-fried with shrimp, pork and scrambled egg threads"
         },
         {
             "id": 109,
             "name": "Singapore Fried Noodles",
             "price": 11.95,
             "size":["R"],
-            "description": "Thin vermicelli rice noodles with mild curry, shrimp, BBQ pork, bean sprouts and scrambled egg threads" 
+            "description": "- Thin vermicelli rice noodles with mild curry, shrimp, BBQ pork, bean sprouts and scrambled egg threads" 
         },
         {
             "id": 110,
             "name": "Szechuan Chicken (Spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Coated, diced chicken with water-chestnuts, bamboo shoots and mixed vegetables"
+            "description": "- Coated, diced chicken with water-chestnuts, bamboo shoots and mixed vegetables"
         },
         {
             "id": 111,
             "name": "Szechuan Style Spicy Beef (Spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Sliced tender beef, mixed vegetables, served with special Szechuan spicy sauce"
+            "description": "- Sliced tender beef, mixed vegetables, served with special Szechuan spicy sauce"
         },
         {
             "id": 112,
             "name": "Szechuan Shrimp (spicy)",
             "price": 14.35,
             "size":["R"],
-            "description": "Fresh shrimp, green and red peppers, onions, cooked Szechuan style with a delicate sauce"
+            "description": "- Fresh shrimp, green and red peppers, onions, cooked Szechuan style with a delicate sauce"
         },
         {
             "id": 113,
             "name": "Szechuan Style Spicy Pork (Spicy)",
             "price": 12.30,
             "size":["R"],
-            "description": "Sliced tender pork, mixed vegetables served with Szechuan spicy sauce"
+            "description": "- Sliced tender pork, mixed vegetables served with Szechuan spicy sauce"
         },
         {
             "id": 114,
             "name": "Hunan Style Spicy Beef (Spicy)",
             "price": 12.95,
             "size":["R"],
-            "description": "Sliced tender beef with peppers, Chinese mushrooms and water-chestnuts in a Hunan style sauce"
+            "description": "- Sliced tender beef with peppers, Chinese mushrooms and water-chestnuts in a Hunan style sauce"
         },
         {
             "id": 115,
             "name": "Hunan Style Spicy Chicken (Spicy)",
             "price": 12.95,
             "size":["R"],
-            "description": "Sliced tender Chicken Breast with peppers, Chinese mushrooms and water-chestnuts in a Hunan style sauce"
+            "description": "- Sliced tender Chicken Breast with peppers, Chinese mushrooms and water-chestnuts in a Hunan style sauce"
         },
         {
             "id": 116,
             "name": "Peking Chicken (Spicy)",
             "price": 12.95,
             "size":["R"],
-            "description": "Diced chicken with mushroom and bamboo shoots in a spicy hot peanut sauce"
+            "description": "- Diced chicken with mushroom and bamboo shoots in a spicy hot peanut sauce"
         },
         {
             "id": 117,
             "name": "Guy Ding Peng (Spicy)",
             "price": 13.55,
             "size":["R"],
-            "description": "Shrimp and chicken stir-fried with water-chestnuts, green peas and mushrooms in a spicy sauce"
+            "description": "- Shrimp and chicken stir-fried with water-chestnuts, green peas and mushrooms in a spicy sauce"
         },
         {
             "id": 118,
             "name": "General Tso Chicken",
             "price": 12.95,
             "size":["R"],
-            "description": "Chunks of battered chicken in garlic sauce"
+            "description": "- Chunks of battered chicken in garlic sauce"
         }
     ],
     "familyDinners": [

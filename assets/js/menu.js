@@ -1,6 +1,8 @@
 //ES5 JS
 
 //Private: Use to calculate price
+
+
 var foodValueController = (function(){ 
 
     var id, name, price, size, description;
@@ -41,7 +43,7 @@ var UIController = (function(){
             request.send(null)
             var menuJSON = JSON.parse(request.responseText);
             var reverseKeys = Object.keys(menuJSON).reverse();
-            var elementStore = '<div class="row">                                                                                            <div id="food-id" class="col-md-9"><p>%name%</p></div>                                              <div id="food-id2" class="col-md-3"><p>$%price%</p></div>                                                  </div><div class="row"><div class="col-md-12"><p>%description%</p></div></div>';
+            var elementStore = '<div class="container"><div class="row">                                                                                            <div id="food-id" class="col-md-9"><p>%name%</p></div>                                              <div id="food-id2" class="col-md-1"><p>%price%</p></div><div  class="col-md-1"></div><div id="food-id2" class="col-md-1">%2ndPrice%</div>                                                    </div><div class="row"><div class="col-md-12"><p>%description%</p></div></div></div>';
             
             var subCategoryHeading = '<div id="%idCate%" class="row"><h3 class="center">%categoryHeading%</h3></div>';
             
@@ -54,15 +56,17 @@ var UIController = (function(){
                     if (Array.isArray(menuJSON[reverseKeys[i]][j]["price"])){
                     
                         //Add the price of the dish
-                        newElement = newElement.replace("%price%", menuJSON[reverseKeys[i]][j]["price"][0].toFixed(2) +" $" + menuJSON[reverseKeys[i]][j]["price"][1].toFixed(2));
+                        newElement = newElement.replace("%price%","$"+menuJSON[reverseKeys[i]][j]["price"][0].toFixed(2));  
+                        newElement = newElement.replace("%2ndPrice%","$"+menuJSON[reverseKeys[i]][j]["price"][1].toFixed(2));
                     }
                     else {
-                        newElement = newElement.replace("%price%", menuJSON[reverseKeys[i]][j]["price"].toFixed(2));
+                        newElement = newElement.replace("%2ndPrice%","$"+menuJSON[reverseKeys[i]][j]["price"].toFixed(2));
+                        newElement = newElement.replace("%price%","");
                     }
                     
                     //Check if description is apparent in JSON property
                     if (menuJSON[reverseKeys[i]][j].hasOwnProperty("description")){
-                        newElement = newElement.replace("%description%", JSON.stringify(menuJSON[reverseKeys[i]][j]["description"]).replace(/^"(.*)"$/, '$1'));
+                        newElement = newElement.replace("%description%",JSON.stringify(menuJSON[reverseKeys[i]][j]["description"]).replace(/^"(.*)"$/, '$1'));
                     }
                     else{
                             newElement = newElement.replace("%description%", "");
@@ -77,15 +81,11 @@ var UIController = (function(){
                 categoryHeading = categoryHeading.replace("%idCate%", categories[i]);
                 document.getElementById("menu--title").insertAdjacentHTML('afterend', categoryHeading);
                 
-            }
-            
-            
-            
-            
-            
+            }  
             
         }
         
+            
     }; 
 })();
 
@@ -100,7 +100,8 @@ var controller = (function(foodValueCtrl, UICtrl){
     return {
         
         startMenu: function(){
-            UICtrl.initMenus()
+            UICtrl.initMenus();
+      
         }
     };
     
