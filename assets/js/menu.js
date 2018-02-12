@@ -27,7 +27,11 @@ var foodValueController = (function(){
 //UI CONTROLLER: Private
 var UIController = (function(){
     
-    var categories = ["Combination Plates", "Dinners", "Specialities", "SeaFood", "Sweet and Sour", "Chow Mein/Chop Suey", "Chicken", "Egg Foo Young", "Vegetable Dishes", "Beef and Pork", "Fried Rice", "Side Orders", "Soups", "Appetizers"]
+    var DOMstrings = {
+        initmenu:"menu--title"
+    };
+    
+    var categories = ["Combination Plates", "Dinners", "Specialities", "SeaFood", "Sweet and Sour", "Chow Mein/Chop Suey", "Chicken", "Egg Foo Young", "Vegetable Dishes", "Beef and Pork", "Fried Rice", "Side Orders", "Soups", "Appetizers"];
     
     
     
@@ -73,18 +77,20 @@ var UIController = (function(){
                     }
                            
                     //Insert the HTML into the DOM 
-                    document.getElementById("menu--title").insertAdjacentHTML('afterend', newElement);
+                    document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', newElement);
                 }
                 
                 //Add subheadings after all the foods have been appended in that section
                 var categoryHeading = subCategoryHeading.replace("%categoryHeading%", categories[i]);
                 categoryHeading = categoryHeading.replace("%idCate%", categories[i]);
-                document.getElementById("menu--title").insertAdjacentHTML('afterend', categoryHeading);
-                
+                document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', categoryHeading);  
             }  
-            
-        }
+        },
         
+        getDomStrings: function() {
+            return DOMstrings;
+        
+        }
             
     }; 
 })();
@@ -94,7 +100,25 @@ var UIController = (function(){
 //Main global controller private
 var controller = (function(foodValueCtrl, UICtrl){
     
+    var setupEventListeners = function() {
+        var DOM = UICtrl.getDOMstrings();
+        
+        document.querySelector(DOM.inputBtn).addEventListener("click", ctrlAddItem);
     
+        document.addEventListener("keypress", function(event){
+        //console.log(event); this displays the KeyboardEvent showing a lot of properties
+        // .keyCode and .which are the same and have the same functionality just different naming convention
+            if (event.keyCode === 13 || event.which === 13) {
+                ctrlAddItem();
+            }
+        });
+        
+        //Use event delegation let the event bubble up to check for delete items since it is the smallest child node
+        //for the delete tag
+        document.querySelector(DOM.container).addEventListener("click", ctrlDeleteItem);
+        
+        
+    };
     
     
     return {

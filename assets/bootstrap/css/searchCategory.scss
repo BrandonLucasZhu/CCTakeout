@@ -1,0 +1,55 @@
+.hover {
+  /* Everything before the hovered element */
+  /* Since we can't select previous elements, we simply set it as the default and then overwrite subsequent elements */
+  background: cornsilk;
+  
+  &::before {
+    content: 'Before';
+  }
+  
+  // The hovered element
+  &:focus,
+  &:hover {
+    background: black;
+    
+    &::before {
+      content: 'Hovered';
+    }
+  }
+
+  /* Everything after the hovered element */
+  /* ~ is the sibling selector https://developer.mozilla.org/en/docs/Web/CSS/General_sibling_selectors */
+  &:focus ~ &,
+  &:hover ~ & {
+    background: #6ef1cd;
+    
+    &::before {
+      content: 'After';
+    }
+  }
+}
+
+.container:not(:focus-within):not(:hover) {
+  .hover { 
+    background: #f7ffb5;
+    
+    &::before { content: 'Hover Me'; }
+  }
+}
+
+.category-container-colour {
+  padding: 0 2rem;
+  display: flex;
+  width: 100%;
+}
+
+
+.hover {
+  text-decoration: none;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-weight: 700;
+  transition: 0.5s;
+  flex: 1 1 25%;
+  color: #000;
+}

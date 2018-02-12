@@ -2,12 +2,20 @@
     font-size: 48px;
 }
 
-.font-black{
-    color:#000000;
+.font-white{
+    color:whitesmoke;
+}
+
+.font-cornsilk{
+    color:cornsilk;
+}
+
+.hyperlink-black{
+    color:black;
 }
 
 .red-bg{
-    background-color: #cc0000 ;
+    background-color: #cc0000;
 }
 
 .white-bg{

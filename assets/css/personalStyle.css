@@ -1,6 +1,6 @@
 html, body{
     margin:0;
-    background-color:#ffe066;
+    background-color:goldenrod;
 }
 
 .remove-all-margin-padding{
@@ -27,6 +27,12 @@ html, body{
 .resize-pic{
     width:100%;
     height: auto;    
+}
+
+.outline-box-elements {
+    outline-color:#000000;
+    outline-style: solid;
+    outline-width: thick;
 }
 
 /* **************************************** */
@@ -130,7 +136,7 @@ transform: translateZ(-25px) rotateX(90deg);
 	top: 0;
 	left: 0;
 	background: #fff8dc;
-	padding: 15px 10px;
+	padding: 20px 7.5px;
 	color: black;
 	pointer-events: none;
 	box-sizing: border-box;
@@ -152,6 +158,11 @@ transform: translateZ(-25px) rotateX(90deg);
     background-attachment: fixed; 
 }
 
+/* place ontop of bg-color-home */
+.bg-color-dragon{
+    background:url("chinese_dragon.jpg"); 
+}
+
 /* **************** Open hours section ************** */
 
 .open-hrs-container-size{ 
@@ -170,7 +181,29 @@ transform: translateZ(-25px) rotateX(90deg);
 
 /* **************** Photo Gallery ***************** */
 
+.slideshow {
+    margin: 50px auto; 
+    position: relative; 
+    width: 700px ; 
+    height: 700px ; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,10); 
+    
+}
 
+.slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.slideshowpic{
+    
+    width:100%;
+    height: auto;
+}
 
 
 /* ************************************************ */
@@ -188,12 +221,24 @@ transform: translateZ(-25px) rotateX(90deg);
 }
 
 
+.grad-links-buttons {  
+    border: 6px solid transparent;
+    border-image: linear-gradient(to right, yellow 0%, red 100%);
+    border-image-slice: 1;
+    background: cornsilk;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
 
-
-
-
-
-
+.grad-links-buttons:hover {
+    background-color: cornsilk;
+    background: linear-gradient(to right, red, yellow);
+    color: #fff;
+}
 
 
 
