@@ -39,7 +39,8 @@ html, body{
 
 
 .bg-nav-color{
-    background-color:#bfbfbf; 
+    background-color:#cc0000;
+    border-bottom: 3px solid #fff8dc;
 }
 
 .nav-title{
@@ -68,12 +69,80 @@ html, body{
   margin-bottom: 0px;
 }
 
+
+.block-menu li {
+	display: inline-block;
+}
+
+.block-menu li a {
+	display: block;
+	text-decoration: none;
+	font-smoothing: antialiased;
+	overflow: visible;
+	line-height: 20px;
+	font-size: 24px;
+	padding: 15px 10px;
+    color:black;
+}
+
+/* animation domination */
+.three-d {
+	perspective: 200px;
+	transition: all .07s linear;
+	position: relative;
+	cursor: pointer;
+}
+
+/* complete the animation! */
+.three-d:hover .three-d-box, 
+.three-d:focus .three-d-box {
+transform: translateZ(-25px) rotateX(90deg);
+}
+
+.three-d-box {
+	transition: all .3s ease-out;
+	transform: translatez(-25px);
+	transform-style: preserve-3d;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.front {
+	transform: rotatex(0deg) translatez(25px);
+}
+
+.back {
+	transform: rotatex(-90deg) translatez(25px);
+	color: white;
+}
+
+.front, .back {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff8dc;
+	padding: 15px 10px;
+	color: black;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+
+
 /* *********************************************** */
 
 /* **************** Home page ******************** */
 
 .bg-color-home{
-    background-color:#ffe066;
+    background-color:goldenrod;
     max-width: 100% !important;
     background-size:cover;
     max-height: 100% !important;
@@ -134,7 +203,7 @@ html, body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #bfbfbf;
-    color: white;
+    background-color: #cc0000;
+    border-top:3px solid #fff8dc;
     text-align: center;
 }
