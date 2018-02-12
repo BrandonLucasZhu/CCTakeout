@@ -1,6 +1,8 @@
 html, body{
     margin:0;
     background-color:goldenrod;
+    font-family: 'Indie Flower', cursive;
+    
 }
 
 .remove-all-margin-padding{
@@ -73,6 +75,7 @@ html, body{
   width:100%;
   min-height: 50px;
   margin-bottom: 0px;
+  font-family: 'Indie Flower', cursive;
 }
 
 
@@ -136,7 +139,7 @@ transform: translateZ(-25px) rotateX(90deg);
 	top: 0;
 	left: 0;
 	background: #fff8dc;
-	padding: 20px 7.5px;
+	padding: 20px 15px;
 	color: black;
 	pointer-events: none;
 	box-sizing: border-box;
@@ -156,6 +159,7 @@ transform: translateZ(-25px) rotateX(90deg);
     margin:0  !important;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* place ontop of bg-color-home */
@@ -218,6 +222,12 @@ transform: translateZ(-25px) rotateX(90deg);
     outline-color:#000000;
     outline-style: solid;
     outline-width: thin;
+}
+
+.fill-search-button {
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 
