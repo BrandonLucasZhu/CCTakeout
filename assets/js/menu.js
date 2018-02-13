@@ -28,13 +28,13 @@ var foodValueController = (function(){
 var UIController = (function(){
     
     var DOMstrings = {
-        initmenu:"menu--title"
-        
+        initmenu:"menu--title",
+        searchCategory:"#entire--category"
     };
     
-    var categories = ["Combination Plates", "Dinners", "Specialities", "SeaFood", "Sweet and Sour", "Chow Mein/Chop Suey", "Chicken", "Egg Foo Young", "Vegetable Dishes", "Beef and Pork", "Fried Rice", "Side Orders", "Soups", "Appetizers", "All"];
+    var categories = ["Combination Plates", "Dinners", "Specialities", "SeaFood", "Sweet and Sour", "Chow Mein/Chop Suey", "Chicken", "Egg Foo Young", "Vegetable Dishes", "Beef and Pork", "Fried Rice", "Side Orders", "Soups", "Appetizers"];
     
-    
+    var idCategories = ["combinationPlates", "familyDinners", "specialities", "seaFood", "sweetAndSour", "chowMein", "chicken", "eggFooYoung", "vegDishes", "beefPork", "friedRice", "sideOrders", "soups", "appetizers"];
     
     
    
@@ -83,16 +83,29 @@ var UIController = (function(){
                 
                 //Add subheadings after all the foods have been appended in that section
                 var categoryHeading = subCategoryHeading.replace("%categoryHeading%", categories[i]);
-                categoryHeading = categoryHeading.replace("%idCate%", categories[i]);
+                categoryHeading = categoryHeading.replace("%idCate%", idCategories[i]);
                 document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', categoryHeading);  
-            }  
+            }
         },
         
-        clickSearchCategory: function () {
+        //Adjust menu size according to the event trigger
+        clickSearchCategory: function (pressedCategory) {
             
+            var element = document.getElementById(DOMstrings.initmenu).childNodes
+            //Need to turn nodelist into array
+            
+            for (var i = 0; i < element.length; i++){
+                if (pressedCategory !== categories[i]){
+                    //get the element that doesnt match to the button event triggered
+                    
+                   
+                    document.getElementById(DOMstrings.initmenu).removeChild(element);
+                }
+            }
+        
         },
         
-        getDomStrings: function() {
+        getDOMstrings: function() {
             return DOMstrings;
         
         }
@@ -107,14 +120,19 @@ var controller = (function(foodValueCtrl, UICtrl){
     
     var setupEventListeners = function() {
         var DOM = UICtrl.getDOMstrings();
+    
+        document.querySelector(DOM.searchCategory).addEventListener("click", ctrlFindCategory);
+    };
+    
+    //Gets the event from "Search by category" a minimizes menu based on the button event clicked
+    var ctrlFindCategory = function(event) {
+        var searchValue;
         
-        document.querySelector(DOM.inputBtn).addEventListener("click", ctrlAddItem);
-        
-        //Use event delegation let the event bubble up to check for delete items since it is the smallest child node
-        //for the delete tag
-        document.querySelector(DOM.container).addEventListener("click", ctrlDeleteItem);
-        
-        
+        //get the element that triggered the event
+        searchValue = event.target.value;
+        var nodeSearch = event.target;
+        console.log(nodeSearch);
+        UICtrl.clickSearchCategory(searchValue);
     };
     
     
@@ -122,7 +140,7 @@ var controller = (function(foodValueCtrl, UICtrl){
         
         startMenu: function(){
             UICtrl.initMenus();
-      
+            setupEventListeners();
         }
     };
     

@@ -151,7 +151,7 @@ transform: translateZ(-25px) rotateX(90deg);
 /* **************** Home page ******************** */
 
 .bg-color-home{
-    background-color:goldenrod;
+    background-color:cornsilk;
     max-width: 100% !important;
     background-size:cover;
     max-height: 100% !important;
