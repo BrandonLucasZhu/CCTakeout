@@ -36,25 +36,33 @@ var UIController = (function(){
     
     var idCategories = ["combinationPlates", "familyDinners", "specialities", "seaFood", "sweetAndSour", "chowMein", "chicken", "eggFooYoung", "vegDishes", "beefPork", "friedRice", "sideOrders", "soups", "appetizers"];
     
-    
+    var elementStore = '<div class="container"><div class="row">                                                                                            <div id="food-id" class="col-md-8"><p>%name%</p></div>                                              <div id="food-id2" class="col-md-1"><p>%price%</p></div><div  class="col-md-1"></div><div id="food-id2" class="col-md-1">%2ndPrice%</div>                                                    </div><div class="row"><div class="col-md-12"><p>%description%</p></div></div></div>';
+            
+    var subCategoryHeading = '<div id="%idCate%" class="row"><h3 class="center">%categoryHeading%</h3></div>';
    
+    var request = new XMLHttpRequest();    
+        
+    
+    
     
     return {
          
         //Display the entire menu initially
         initMenus: function() {
-            var request = new XMLHttpRequest();    
             request.open("GET", "http://localhost:3000/db", false);
             request.send(null)
             var menuJSON = JSON.parse(request.responseText);
             var reverseKeys = Object.keys(menuJSON).reverse();
-            var elementStore = '<div class="container"><div class="row">                                                                                            <div id="food-id" class="col-md-9"><p>%name%</p></div>                                              <div id="food-id2" class="col-md-1"><p>%price%</p></div><div  class="col-md-1"></div><div id="food-id2" class="col-md-1">%2ndPrice%</div>                                                    </div><div class="row"><div class="col-md-12"><p>%description%</p></div></div></div>';
             
-            var subCategoryHeading = '<div id="%idCate%" class="row"><h3 class="center">%categoryHeading%</h3></div>';
-            
+            for (var k = 0; k < categories.length; k++) {
+                //Add subheadings after all the foods have been appended in that section
+                var categoryHeading = subCategoryHeading.replace("%categoryHeading%", categories[k]);
+                categoryHeading = categoryHeading.replace("%idCate%", idCategories[k]);
+                document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', categoryHeading);  
+            }
             
             for (var i = 0; i < reverseKeys.length; i++) {
-                for (var j = menuJSON[reverseKeys[i]].length - 1; j >= 0; j--) {
+                for (var j = 0; j < menuJSON[reverseKeys[i]].length; j++) {
                     //Add name of the dish
                     var newElement = elementStore.replace("%name%", JSON.stringify(menuJSON[reverseKeys[i]][j]["name"]).replace(/^"(.*)"$/, '$1')); //Remove quotation marks in key
                     
@@ -75,34 +83,85 @@ var UIController = (function(){
                     }
                     else{
                             newElement = newElement.replace("%description%", "");
-                    }
-                           
+                    }       
                     //Insert the HTML into the DOM 
-                    document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', newElement);
+                    document.getElementById(idCategories[i]).insertAdjacentHTML('beforeend', newElement);
                 }
-                
-                //Add subheadings after all the foods have been appended in that section
-                var categoryHeading = subCategoryHeading.replace("%categoryHeading%", categories[i]);
-                categoryHeading = categoryHeading.replace("%idCate%", idCategories[i]);
-                document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', categoryHeading);  
             }
         },
         
         //Adjust menu size according to the event trigger
         clickSearchCategory: function (pressedCategory) {
             
-            var element = document.getElementById(DOMstrings.initmenu).childNodes
-            //Need to turn nodelist into array
+           var categoryHeading, headingDisplayed, headingID, subMenu;
             
-            for (var i = 0; i < element.length; i++){
-                if (pressedCategory !== categories[i]){
-                    //get the element that doesnt match to the button event triggered
-                    
-                   
-                    document.getElementById(DOMstrings.initmenu).removeChild(element);
-                }
-            }
+           request.open("GET", "http://localhost:3000/db", false);
+           request.send(null)
+           var menuJSON = JSON.parse(request.responseText);
+           var reverseKeys = Object.keys(menuJSON).reverse();
         
+     
+           for (var i = 0; i < idCategories.length; i++){
+                   // remove all subheadings other than the one being selected
+             if (document.getElementById(idCategories[i]).firstChild !== null) {      
+                document.getElementById(idCategories[i]).removeChild(document.getElementById(idCategories[i]).firstChild);
+                
+             }
+               console.log(document.getElementById(idCategories[i]));
+               //console.log(document.getElementById(idCategories[i]).firstChild);
+                document.getElementById(idCategories[i]).innerHTML = "";
+               
+               // console.log(document.getElementById(idCategories[i]).removeChild(document.getElementById(idCategories[i]).firstChild)); 
+               if (idCategories[i] === pressedCategory) {
+                   headingDisplayed = categories[i];
+                   headingID = idCategories[i];
+                   subMenu = menuJSON[pressedCategory];
+                   
+                   //Only show one heading
+                   if (document.getElementById(idCategories[i]) !== null && idCategories[i] !== pressedCategory){
+                       //Just replace the div element if it exists already
+                       document.getElementById(idCategories[i]).replace("%categoryHeading%", headingDisplayed);
+                       document.getElementById(idCategories[i]).replace("%idCate%", headingID);
+                   }
+                   else{
+                      categoryHeading = subCategoryHeading.replace("%categoryHeading%", headingDisplayed);
+                      categoryHeading = categoryHeading.replace("%idCate%", headingID);
+                   }
+               }
+               
+           }
+            
+            
+            document.getElementById(DOMstrings.initmenu).insertAdjacentHTML('afterend', categoryHeading);  
+            
+            //console.log(subMenu);
+            
+            for (var j = 0; j < subMenu.length; j++ ) {
+                
+                var newElement = elementStore.replace("%name%", JSON.stringify(subMenu[j]["name"]).replace(/^"(.*)"$/, '$1')); //Remove quotation marks in key
+                
+                if (Array.isArray(subMenu[j]["price"])){
+                    
+                        //Add the price of the dish
+                        newElement = newElement.replace("%price%","$"+subMenu[j]["price"][0].toFixed(2));  
+                        newElement = newElement.replace("%2ndPrice%","$"+subMenu[j]["price"][1].toFixed(2));
+                    }
+                    else {
+                        newElement = newElement.replace("%2ndPrice%","$"+subMenu[j]["price"].toFixed(2));
+                        newElement = newElement.replace("%price%","");
+                    }
+                //Check if description is apparent in JSON property
+                if (subMenu[j].hasOwnProperty("description")){
+                    newElement = newElement.replace("%description%",JSON.stringify(subMenu[j]["description"]).replace(/^"(.*)"$/, '$1'));
+                }
+                else{
+                    newElement = newElement.replace("%description%", "");
+                }
+                
+                //Insert the HTML into the DOM 
+                document.getElementById(pressedCategory).insertAdjacentHTML('beforeend', newElement);
+            }
+            
         },
         
         getDOMstrings: function() {
@@ -126,13 +185,13 @@ var controller = (function(foodValueCtrl, UICtrl){
     
     //Gets the event from "Search by category" a minimizes menu based on the button event clicked
     var ctrlFindCategory = function(event) {
-        var searchValue;
+       
         
         //get the element that triggered the event
-        searchValue = event.target.value;
-        var nodeSearch = event.target;
-        console.log(nodeSearch);
-        UICtrl.clickSearchCategory(searchValue);
+        
+        var buttonClicked = event.target.value;
+ 
+        UICtrl.clickSearchCategory(buttonClicked);
     };
     
     
