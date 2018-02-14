@@ -48,7 +48,7 @@ html, body{
 
 .bg-nav-color{
     background-color:#cc0000;
-    border-bottom: 3px solid #fff8dc;
+    border-bottom: 5px solid black;
 }
 
 .nav-title{
@@ -233,7 +233,7 @@ transform: translateZ(-25px) rotateX(90deg);
 
 .grad-links-buttons {  
     border: 6px solid transparent;
-    border-image: linear-gradient(to right, yellow 0%, red 100%);
+    border-image: linear-gradient(to right, gold 0%, red 100%);
     border-image-slice: 1;
     background: cornsilk;
     color: black;
@@ -246,10 +246,15 @@ transform: translateZ(-25px) rotateX(90deg);
 
 .grad-links-buttons:hover {
     background-color: cornsilk;
-    background: linear-gradient(to right, red, yellow);
+    background: linear-gradient(to right, red, gold);
     color: #fff;
 }
+/* *************************************************** */
+/* **************** Menu ******************* */
 
+.menu-links{
+    text-decoration: none !important;
+}
 
 
 /* *************************************************** */
@@ -259,6 +264,6 @@ transform: translateZ(-25px) rotateX(90deg);
     bottom: 0;
     width: 100%;
     background-color: #cc0000;
-    border-top:3px solid #fff8dc;
+    border-top:5px solid black;
     text-align: center;
 }
