@@ -32,7 +32,7 @@ html, body{
 }
 
 .outline-box-elements {
-    outline-color:#000000;
+    outline-color:#61332f;
     outline-style: solid;
     outline-width: thick;
 }
@@ -47,8 +47,8 @@ html, body{
 
 
 .bg-nav-color{
-    background-color:#cc0000;
-    border-bottom: 5px solid black;
+    background-color:#cf393d;
+    border-bottom: 5px solid #61332f;
 }
 
 .nav-title{
@@ -91,7 +91,7 @@ html, body{
 	line-height: 20px;
 	font-size: 24px;
 	padding: 15px 10px;
-    color:black;
+    color:#61332f;
 }
 
 /* animation domination */
@@ -140,7 +140,7 @@ transform: translateZ(-25px) rotateX(90deg);
 	left: 0;
 	background: #fff8dc;
 	padding: 20px 15px;
-	color: black;
+	color: #61332f;
 	pointer-events: none;
 	box-sizing: border-box;
 }
@@ -219,7 +219,7 @@ transform: translateZ(-25px) rotateX(90deg);
 }
 
 .outline-search-links {
-    outline-color:#000000;
+    outline-color:#61332f;
     outline-style: solid;
     outline-width: thin;
 }
@@ -233,10 +233,10 @@ transform: translateZ(-25px) rotateX(90deg);
 
 .grad-links-buttons {  
     border: 6px solid transparent;
-    border-image: linear-gradient(to right, gold 0%, red 100%);
+    border-image: linear-gradient(to right, gold 0%, #cf393d 100%);
     border-image-slice: 1;
     background: cornsilk;
-    color: black;
+    color: #61332f;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -246,7 +246,7 @@ transform: translateZ(-25px) rotateX(90deg);
 
 .grad-links-buttons:hover {
     background-color: cornsilk;
-    background: linear-gradient(to right, red, gold);
+    background: linear-gradient(to right, #cf393d, gold);
     color: #fff;
 }
 /* *************************************************** */
@@ -263,7 +263,7 @@ transform: translateZ(-25px) rotateX(90deg);
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #cc0000;
-    border-top:5px solid black;
+    background-color: #cf393d;
+    border-top:5px solid #61332f;
     text-align: center;
 }
