@@ -49,8 +49,9 @@ var UIController = (function(){
          
         //Display the entire menu initially
         initMenus: function() {
-            request.open("GET", "http://localhost:3000/db", false);
-            request.send(null)
+            //request.open("GET", "http://localhost:3000/db", false);
+            //request.send(null)
+            
             var menuJSON = JSON.parse(request.responseText);
             var reverseKeys = Object.keys(menuJSON).reverse();
             

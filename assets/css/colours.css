@@ -2,13 +2,9 @@
     font-size: 48px;
 }
 
-.font-white{
-    color:whitesmoke;
-}
 
-.font-cornsilk{
-    color:cornsilk;
-}
+
+
 
 .hyperlink-black{
     color:#61332f;
@@ -18,6 +14,6 @@
     background-color: #cf393d;
 }
 
-.white-bg{
-    background-color: #fff8dc;
+.black-bg{
+    background-color: black;
 }

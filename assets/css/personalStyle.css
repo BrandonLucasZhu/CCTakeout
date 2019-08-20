@@ -1,7 +1,7 @@
 html, body{
     margin:0;
-    background-color:cornsilk;
-    font-family: 'Indie Flower', cursive;
+    background-color:white;
+    font-family: 'Roboto', cursive;
     
 }
 
@@ -32,7 +32,7 @@ html, body{
 }
 
 .outline-box-elements {
-    outline-color:#61332f;
+    outline-color: black;
     outline-style: solid;
     outline-width: thick;
 }
@@ -47,8 +47,8 @@ html, body{
 
 
 .bg-nav-color{
-    background-color:#cf393d;
-    border-bottom: 5px solid #61332f;
+    background-color: white;
+    border-bottom: 5px solid black;
 }
 
 .nav-title{
@@ -75,7 +75,7 @@ html, body{
   width:100%;
   min-height: 50px;
   margin-bottom: 0px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', cursive;
 }
 
 
@@ -90,35 +90,9 @@ html, body{
 	overflow: visible;
 	line-height: 20px;
 	font-size: 24px;
-	padding: 15px 10px;
-    color:#61332f;
-}
-
-/* animation domination */
-.three-d {
-	perspective: 200px;
-	transition: all .07s linear;
-	position: relative;
-	cursor: pointer;
-}
-
-/* complete the animation! */
-.three-d:hover .three-d-box, 
-.three-d:focus .three-d-box {
-transform: translateZ(-25px) rotateX(90deg);
-}
-
-.three-d-box {
-	transition: all .3s ease-out;
-	transform: translatez(-25px);
-	transform-style: preserve-3d;
-	pointer-events: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	width: 100%;
-	height: 100%;
+    padding: 15px 10px;
+    position:relative;
+    color:black;
 }
 
 
@@ -138,9 +112,9 @@ transform: translateZ(-25px) rotateX(90deg);
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #fff8dc;
+	background:white;
 	padding: 20px 15px;
-	color: #61332f;
+	color:black;
 	pointer-events: none;
 	box-sizing: border-box;
 }
@@ -151,7 +125,7 @@ transform: translateZ(-25px) rotateX(90deg);
 /* **************** Home page ******************** */
 
 .bg-color-home{
-    background-color:cornsilk;
+    background-color:White;
     max-width: 100% !important;
     background-size:cover;
     max-height: 100% !important;
@@ -159,13 +133,9 @@ transform: translateZ(-25px) rotateX(90deg);
     margin:0  !important;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* place ontop of bg-color-home */
-.bg-color-dragon{
-    background:url("chinese_dragon.jpg"); 
-}
 
 /* **************** Open hours section ************** */
 
@@ -219,7 +189,7 @@ transform: translateZ(-25px) rotateX(90deg);
 }
 
 .outline-search-links {
-    outline-color:#61332f;
+    outline-color:black;
     outline-style: solid;
     outline-width: thin;
 }
@@ -233,10 +203,12 @@ transform: translateZ(-25px) rotateX(90deg);
 
 .grad-links-buttons {  
     border: 6px solid transparent;
-    border-image: linear-gradient(to right, gold 0%, #cf393d 100%);
+    /*border-image: linear-gradient(to right, gold 0%, #cf393d 100%); */
+    border-bottom: 2px solid black;
+    text-decoration: none;    
     border-image-slice: 1;
-    background: cornsilk;
-    color: #61332f;
+    background: white;
+    /*color: #61332f;*/
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -245,9 +217,9 @@ transform: translateZ(-25px) rotateX(90deg);
 }
 
 .grad-links-buttons:hover {
-    background-color: cornsilk;
-    background: linear-gradient(to right, #cf393d, gold);
-    color: #fff;
+    background-color:white;
+    /*background: linear-gradient(to right, #cf393d, gold);*/
+
 }
 /* *************************************************** */
 /* **************** Menu ******************* */
@@ -264,6 +236,6 @@ transform: translateZ(-25px) rotateX(90deg);
     bottom: 0;
     width: 100%;
     background-color: #cf393d;
-    border-top:5px solid #61332f;
+    border-top:5px solid black; 
     text-align: center;
 }
