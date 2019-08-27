@@ -49,11 +49,7 @@ var UIController = (function(){
          
         //Display the entire menu initially
         initMenus: function() {
-            //request.open("GET", "http://localhost:3000/db", false);
-            //request.send(null)
             
-            var menuJSON = JSON.parse(request.responseText);
-            var reverseKeys = Object.keys(menuJSON).reverse();
             
             for (var k = 0; k < categories.length; k++) {
                 //Add subheadings after all the foods have been appended in that section

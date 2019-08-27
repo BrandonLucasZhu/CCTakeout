@@ -2,225 +2,68 @@ html, body{
     margin:0;
     background-color:white;
     font-family: 'Roboto', cursive;
-    
 }
 
-.remove-all-margin-padding{
-    margin:0 ! important;
-    padding:0 ! important;
-}
+
 
 /*Commmon utilized css code for re-centering, styling etc */
+.example {
+    padding: 20px;
+    color: white;
+  }
 
-.entire-width{
-    width: 100%;
-}
 
-.center {
-    margin: 0 auto;
-    
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
 
-.five-h-spacing{
-    height:80px;
-    width:100%;
-}
 
-.resize-pic{
-    width:100%;
-    height: auto;    
-}
 
-.outline-box-elements {
-    outline-color: black;
-    outline-style: solid;
-    outline-width: thick;
-}
 
 /* **************************************** */
 
 /* ******************Navigation bar ********************* */
-.remove-blank-space{
-    height:0px !important;
-    width: 0px !important;
-}
 
-
-.bg-nav-color{
-    background-color: white;
-    border-bottom: 5px solid black;
-}
-
-.nav-title{
-    color:#000000;
-}
-
-.nav-link{
-    color:#000000;
-}
-
-.nav-content-right{
+.float-right-nav{
     float: right;
+    
 }
 
-.navbar-section-height{
-    height:50px;
-    width:100%;    
-}
-
-.navbar-fixed-topp{
-  top:0 !important;
-  z-index: 1000 !important;
-  position: fixed !important;
-  width:100%;
-  min-height: 50px;
-  margin-bottom: 0px;
-  font-family: 'Roboto', cursive;
-}
-
-
-.block-menu li {
-	display: inline-block;
-}
-
-.block-menu li a {
-	display: block;
-	text-decoration: none;
-	font-smoothing: antialiased;
-	overflow: visible;
-	line-height: 20px;
-	font-size: 24px;
-    padding: 15px 10px;
-    position:relative;
-    color:black;
-}
-
-
-.front {
-	transform: rotatex(0deg) translatez(25px);
-}
-
-.back {
-	transform: rotatex(-90deg) translatez(25px);
-	color: white;
-}
-
-.front, .back {
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background:white;
-	padding: 20px 15px;
-	color:black;
-	pointer-events: none;
-	box-sizing: border-box;
-}
 
 
 /* *********************************************** */
 
 /* **************** Home page ******************** */
 
-.bg-color-home{
-    background-color:White;
-    max-width: 100% !important;
-    background-size:cover;
-    max-height: 100% !important;
-    padding:0 !important;
-    margin:0  !important;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    font-family: 'Roboto', sans-serif;
-}
-
-
-/* **************** Open hours section ************** */
-
-.open-hrs-container-size{ 
-    height: 20%;
-    width: 100%;
-}
-
-.category-container-size{
-    height:20% !important;
-    width: 450px !important;
-    margin: 0 !important;
-    padding:0 !important;   
-}
-
-/* ************************************************ */
-
-/* **************** Photo Gallery ***************** */
-
-.slideshow {
-    margin: 50px auto; 
-    position: relative; 
-    width: 700px ; 
-    height: 700px ; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,10); 
-    
-}
-
-.slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-}
-
-.slideshowpic{
-    
-    width:100%;
-    height: auto;
-}
 
 
 /* ************************************************ */
 
 /* **************** Search by category section ******************* */
 
-.remove-bullet-p {
-    list-style: none;
-}
-
-.outline-search-links {
-    outline-color:black;
-    outline-style: solid;
-    outline-width: thin;
-}
-
-.fill-search-button {
-    display: block;
-    height: 100%;
-    width: 100%;
-}
 
 
-.grad-links-buttons {  
-    border: 6px solid transparent;
-    /*border-image: linear-gradient(to right, gold 0%, #cf393d 100%); */
-    border-bottom: 2px solid black;
-    text-decoration: none;    
-    border-image-slice: 1;
-    background: white;
-    /*color: #61332f;*/
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    
-}
-
-.grad-links-buttons:hover {
-    background-color:white;
-    /*background: linear-gradient(to right, #cf393d, gold);*/
-
-}
 /* *************************************************** */
 /* **************** Menu ******************* */
 
@@ -235,7 +78,6 @@ html, body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #cf393d;
     border-top:5px solid black; 
     text-align: center;
 }
